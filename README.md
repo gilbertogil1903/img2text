@@ -2,6 +2,10 @@
 A command line script to convert images to text 
 
 ## Usage:
+<<<<<<< HEAD
+=======
+python3 img2text.py img/surprised_pikachu.jpg 10 120 surprised_pikachu.txt
+>>>>>>> ae5b13d55b686de396b914f372b5bd0cd15839fe
 
 1) Go to the `img2text` directory by using `cd img2text`.
 
@@ -14,6 +18,7 @@ A command line script to convert images to text
 Congratulations! You successfully created an ASCII art image.
  
 ## Options:
+<<<<<<< HEAD
 
 `python3`: Runs the code in Python 3. **Do not change this line.**
 
@@ -26,3 +31,11 @@ Congratulations! You successfully created an ASCII art image.
 `width`: How wide the ASCII art will be. Replace with an integer.
 
 `image.txt`: The ASCII art file. Rename it to whatever you want, but make sure it ends with `.txt`.
+=======
+python3-> Verion of Python
+img2text.py-> The program file
+img/surprised_pikachu.jpg-> Image file to be converted into text
+10-> The amount of colors, integer data type. onlt from range(0:10)
+120-> The output width of the text version of image, integer data type
+surprised_pikachu.txt-> The outfile where the text versin of the image will be stored and accessed anytime
+>>>>>>> ae5b13d55b686de396b914f372b5bd0cd15839fe
